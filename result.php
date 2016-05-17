@@ -8,7 +8,7 @@ if($_SESSION['img_number'] != $_POST['num'])
 }else{
      echo "<div align=center> ";
     echo'<font color = green> <h2> The numbers Match! </h2> </font><br>
-    <a href="form.php">Try Again</a><br>';
+    <a href="index.php">Try Again</a><br>';
     echo "</div> ";
 }
 ?>
